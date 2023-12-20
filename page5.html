@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Me when you are angry/not angry</h1>
+    <img height="200px" width="200px" id="main" src="click.jpg" alt=""><br>
+    <button onclick="funct('sad.jpg')">Angry</button>
+    <button onclick="funct('happy.jpg')">Not Angry</button>
+     <h1>Abhi BHI NARAZ HO</h1>
+    <button><a href="page6.html">YES</a></button>
+    <button><a href="ultimate.html"> NO</a></button>
+    <script>
+        function funct(filename)
+        {
+            let img=document.querySelector('#main');
+            img.setAttribute('src',filename);
+
+        }
+
+    </script>
+</body>
+</html>
